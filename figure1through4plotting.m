@@ -1,4 +1,4 @@
-%% PIC single cell heatmap
+%% PIC single cell heatmap for F1
 %TITLE IN N1 N2 N3 format. N1 = ligand 1, N2 = ligand 2, N3 = time
 clear
 load("./single_cell_features/peakfeatures_firstPICCPG.mat")
@@ -53,7 +53,7 @@ for aa=1:length(conditions)
 end
 hold off
 
-%% PIC features
+%% PIC features for F2
 %Subplot1 4 hour PIC to TNF, Subplot2 8 hours PIC to TNF, Subplot3 4 hours PIC to LPS, subplot4 8 hours PIC to LPS 
 clc
 clear
@@ -126,7 +126,7 @@ for aa = 1:4
     set(gca,'fontsize',12)
 end
 
-%% CPG single cell heatmap
+%% CPG single cell heatmap for F1
 %TITLE IN N1 N2 N3 format. N1 = ligand 1, N2 = ligand 2, N3 = time
 clear
 load("./single_cell_features/peakfeatures_firstPICCPG.mat")
@@ -179,7 +179,7 @@ for aa=1:length(conditions)
 end
 hold off
 
-%% CPG features
+%% CPG features for F2
 %Subplot1 4 hour CpG to TNF, Subplot2 8 hours CpG to TNF, Subplot3 4 hours CpG to LPS, subplot4 8 hours CpG to LPS 
 clc
 clear
@@ -249,7 +249,7 @@ for aa = 1:4
     set(gca,'fontsize',12)
 end
 
-%% TNF single cell heatmap
+%% TNF single cell heatmap for F1
 %TITLE IN N1 N2 N3 format. N1 = ligand 1, N2 = ligand 2, N3 = time
 clear
 clf
@@ -308,7 +308,7 @@ for aa=1:length(conditions)
     axis off
 end
 hold off
-%% TNF features
+%% TNF features for F2
 %Subplot1 4 hour TNF to TNF, Subplot2 8 hours TNF to TNF, Subplot3 4 hours TNF to LPS, subplot4 8 hours TNF to LPS 
 clc
 clear
@@ -384,7 +384,7 @@ for aa = 1:4
     set(gca,'fontsize',12)
 end
 
-%% LPS whole cell heatmap
+%% LPS whole cell heatmap for F1
 %TITLE IN N1 N2 N3 format. N1 = ligand 1, N2 = ligand 2, N3 = time
 clear
 load("./single_cell_features/peakfeatures_firstTNFLPS.mat")
@@ -442,7 +442,7 @@ for aa=1:length(conditions)
 end
 hold off
 
-%% LPS features
+%% LPS features for F2
 %Subplot1 4 hour LPS to TNF, Subplot2 8 hours LPS to TNF, Subplot3 4 hours LPS to LPS, subplot4 8 hours LPS to LPS 
 clc
 clear
@@ -522,7 +522,7 @@ for aa = 1:4
     set(gca,'fontsize',12)
 end
 
-%% PAM single cell heatmap
+%% PAM single cell heatmap for F1
 %TITLE IN N1 N2 N3 format. N1 = ligand 1, N2 = ligand 2, N3 = time
 clear
 load("./single_cell_features/peakfeatures_firstPAMIL1")
@@ -576,7 +576,7 @@ for aa=1:length(conditions)
 end
 hold off
 
-%% PAM features
+%% PAM features for F2
 %Subplot1 4 hour PAM to TNF, Subplot2 8 hours PAM to TNF, Subplot3 4 hours PAM to LPS, subplot4 8 hours PAM to LPS 
 clc
 clear
@@ -650,7 +650,7 @@ for aa = 1:4
     set(gca,'fontsize',12)
 end
 
-%% IL1 whole cell heatmap
+%% IL1 whole cell heatmap for F1
 %TITLE IN N1 N2 N3 format. N1 = ligand 1, N2 = ligand 2, N3 = time
 clear
 load("./single_cell_features/peakfeatures_firstPAMIL1")
@@ -705,7 +705,7 @@ for aa=1:length(conditions)
     axis off
 end
 hold off
-%% IL-1 features
+%% IL-1 features for F2
 %Subplot1 4 hour IL-1 to TNF, Subplot2 8 hours IL-1 to TNF, Subplot3 4 hours IL-1 to LPS, subplot4 8 hours IL-1 to LPS 
 clc
 clear
@@ -771,7 +771,7 @@ for aa = 1:4
 end
 
 
-%% sepsis single cell traces
+%% sepsis single cell traces for F4
 %TITLE IN N1 N2 format. N1 = ligand, N2 = control (0) or sepsis (1), N3 = time
 clc
 clear
