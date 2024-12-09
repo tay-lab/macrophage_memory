@@ -9,3 +9,5 @@ In the folder "figure6_RNAseq" is the data and code necessary to produce figure 
 The python script "DL_tiny_combined3-1.py" contains the code neccessary to reproduce the ML model in figure 7
 
 All data are called in the appropriate scripts
+
+10.5281/zenodo.14337874
